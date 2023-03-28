@@ -1,6 +1,6 @@
 {
     "name": "@khasty720/serverless-dynamodb-local",
-    "version": "0.2.40",
+    "version": "0.2.41-canary.0",
     "engines": {
         "node": ">=4.0"
     },
