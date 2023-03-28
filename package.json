@@ -1,15 +1,15 @@
 {
-    "name": "serverless-dynamodb-local",
+    "name": "@khasty720/serverless-dynamodb-local",
     "version": "0.2.40",
     "engines": {
         "node": ">=4.0"
     },
     "description": "Serverless dynamodb local plugin",
-    "author": "99xtechnology.com",
+    "author": "Kyle Hasty",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/99xt/serverless-dynamodb-local"
+        "url": "https://github.com/khasty720/serverless-dynamodb-local"
     },
     "keywords": [
         "serverless framework plugin",
@@ -29,7 +29,9 @@
     "main": "index.js",
     "bin": {},
     "scripts": {
-        "test": "mocha ./test"
+        "test": "mocha ./test",
+        "version:prerelease": "npm version prerelease --preid=canary",
+        "publish:prerelease": "npm login && npm publish --access public --tag canary"
     },
     "dependencies": {
         "aws-sdk": "^2.7.0",
