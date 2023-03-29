@@ -1,6 +1,6 @@
 {
     "name": "@khasty720/serverless-dynamodb-local",
-    "version": "0.2.41-canary.1",
+    "version": "0.2.41",
     "engines": {
         "node": ">=4.0"
     },
@@ -34,7 +34,7 @@
         "publish:prerelease": "npm login && npm publish --access public --tag canary"
     },
     "dependencies": {
-        "@khasty720/dynamodb-localhost": "^1.0.1-canary.4",
+        "@khasty720/dynamodb-localhost": "^0.0.10",
         "aws-sdk": "^2.7.0",
         "bluebird": "^3.4.6",
         "lodash": "^4.17.0"
